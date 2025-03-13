@@ -1,0 +1,119 @@
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.container {
+    margin: auto;
+    width: 80%;
+    }
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-children-options {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.nav-children-options h1 {
+    font-size: medium;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#logo {
+    height: 20px;
+}
+
+header {
+    margin: auto;   
+    padding: 10px;
+
+  }
+  
+  #contact-button {
+      background-color: #007FFF;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      cursor: pointer;
+      color: white;
+      font-weight: 600;
+  }
+
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 12%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.big-text {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: none;
+}
+
+.description {
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.text h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.image-frame {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 12px;
+    background-color: #007FFF;
+}
+
+.resume {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.resume i {
+    font-size: 2rem;
+}
+
+.resume-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EAEAEA;
+    border-radius: 12px;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
